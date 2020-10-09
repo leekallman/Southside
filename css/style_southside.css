@@ -1,0 +1,125 @@
+body {
+	background-color: #FEB82D;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: top;
+  	background-repeat: no-repeat;
+}
+
+.logo img{
+	margin: 20px auto 0 auto;
+	position: relative;
+	transform: translate(-50%);
+	left:50%;
+}
+
+.register{
+	color:#64CCE9;
+}
+
+h3{
+	color:#1F9B63;
+}
+
+.outro{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color:#199A69;
+	margin-bottom:2rem;
+	font-weight: 900;
+}
+
+.market, .vintage, .art, .homemade, .homecooking, .music, .trucks, .humans{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
+	color:#FB5B3C;
+	font-weight: 900;
+}
+
+.market{
+	font-size: 2.75rem;
+}
+.vintage{
+	font-size: 2rem;
+}
+.art{
+	font-size: 1.75rem;
+}
+.homemade{
+	font-size: 2.75rem;
+}
+.homecooking{
+	font-size: 2.5rem;
+}
+
+.music{
+	font-size: 3.5rem;
+}
+
+.trucks{
+	font-size: 1.75rem;
+}
+
+.humans{
+	font-size: 2.25rem;
+}
+
+.home_img{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 1080px) {
+	body {
+  		margin: 0;
+  		padding: 0;
+  		height: 100%;
+	}
+
+	body:before {
+  		content: "";
+  		z-index: -10;
+  		position: fixed;
+  		top: 0;
+  		right: 0;
+  		bottom: 0;
+  		left: 0;
+  		background: url(/background_images/southside_home3.png) no-repeat 0 0;
+  		background-size: cover
+	}
+	#float_img{
+		width:100%;
+		padding:0 2rem 1rem 2rem;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.logo img{
+		width:90%;
+	}
+
+	.outro{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.features{
+		padding:0 0.1rem;
+		line-height: 1.5rem;
+	}
+	.market{
+		font-size: 1.25rem;
+	}
+	.homecooking{
+		font-size: 2rem;
+	}
+	div.menu{
+		font-size: 18px;
+	}
+	.homemade{
+		font-size: 1.5rem;
+	}
+	.music{
+		font-size: 2.75rem;
+	}
+}

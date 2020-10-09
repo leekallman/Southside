@@ -1,0 +1,120 @@
+body {
+	background-color: #FE8EC3;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+}
+.logo img{
+	margin: 5px auto 0 auto;
+	position: relative;
+	transform: translate(-60%);
+	left:60%;
+}
+
+.register_here{
+	color:#FEB82D;
+}
+
+.register_here:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#1F9B63;
+}
+
+.email, .springbeast{
+	color:#1F9B63;
+}
+
+.springbeast:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#FEB82D;
+}
+
+.email:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#FEB82D;
+}
+
+.springbeast_heading{
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.market, .vintage, .art, .homemade, .homecooking, .music, .trucks, .humans{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;;
+	color:#1F9B63;
+	font-weight: 900;
+}
+
+.market{
+	font-size: 2.75rem;
+}
+.vintage{
+	font-size: 2rem;
+}
+.art{
+	font-size: 1.75rem;
+}
+.homemade{
+	font-size: 2.75rem;
+}
+.homecooking{
+	font-size: 2.5rem;
+}
+
+.music{
+	font-size: 3.5rem;
+}
+
+.trucks{
+	font-size: 1.75rem;
+}
+
+.humans{
+	font-size: 2.25rem;
+}
+
+.outro{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
+	font-size: 1.5rem;
+	text-align: center;
+	color:#199A69;
+	margin-bottom:2rem;
+	font-weight: 900;
+}
+
+@media screen and (max-width: 1080px) {
+	body {
+  	margin: 0;
+  	padding: 0;
+  	height: 100%;
+	}
+
+	body:before {
+  	content: "";
+  	z-index: -10;
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background: url(/background_images/ragswag_home.png) no-repeat 0 0;
+  	background-size: cover
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	.logo img{
+		width:90%;
+	}
+
+.market{
+	font-size: 1.25rem;
+}
+.homecooking{
+	font-size: 2rem;
+}
+

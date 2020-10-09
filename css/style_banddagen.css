@@ -1,0 +1,99 @@
+body {
+	background-color: #FB5B3C;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: top;
+  	background-repeat: no-repeat;
+}
+
+.logo img{
+	margin: 20px auto 0 auto;
+	position: relative;
+	transform: translate(-50%);
+	left:50%;
+}
+.email{
+	color:#FB5B3C;
+}
+
+.register_here{
+	color:#FB5B3C;
+}
+
+.register_here:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#76C4DD;
+}
+
+.email:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#76C4DD;
+}
+
+.market, .vintage, .art, .homemade, .homecooking, .music, .trucks, .humans{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
+	color:#FE8EC3;
+	font-weight: 900;
+}
+
+.market{
+	font-size: 2.75rem;
+}
+.vintage{
+	font-size: 2rem;
+}
+.art{
+	font-size: 1.75rem;
+}
+.homemade{
+	font-size: 2.75rem;
+}
+.homecooking{
+	font-size: 2.5rem;
+}
+
+.music{
+	font-size: 3.5rem;
+}
+
+.trucks{
+	font-size: 1.75rem;
+}
+
+.humans{
+	font-size: 2.25rem;
+}
+
+@media screen and (max-width: 1080px) {
+	body {
+  	margin: 0;
+  	padding: 0;
+  	height: 100%;
+	}
+
+	body:before {
+  	content: "";
+  	z-index: -10;
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background: url(/background_images/banddagen_about.png) no-repeat 0 0;
+  	background-size: cover
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	.logo img{
+		width:90%;
+	}
+	.market{
+		font-size: 1.25rem;
+	}
+	.homecooking{
+		font-size: 2rem;
+	}

@@ -1,0 +1,288 @@
+
+
+@font-face {
+  font-family: NeueMachina-Regular;
+  src: 	url(NeueMachina-Regular.otf),
+  		url(neuemachina-regular-webfont.woff2),
+        url(neuemachina-regular-webfont.woff);
+}
+
+@font-face {
+  font-family: NeueMachina-Ultrabold;
+  src: 	url(NeueMachina-Ultrabold.otf),
+  		url(neuemachina-ultrabold-webfont.woff2) format('woff2'),
+        url(neuemachina-ultrabold-webfont.woff) format('woff');
+}
+
+body {
+	font-family: NeueMachina-Regular, Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+}
+
+div.menu{
+	margin:20px auto 50px auto;
+}
+
+div.menu a{
+	text-transform: uppercase;
+}
+
+div.menu a:hover{
+	text-decoration: none;
+	color:#1F9B63;
+	transition: all 0.5s ease;
+}
+
+.selected{
+	text-decoration: underline;
+}
+
+.find_us{
+	margin-bottom:80px;
+}
+
+.register{
+	color:#FEB82D;
+}
+
+.register_here_bandagen{
+	color:#FB5B3C;
+}
+
+.register_here:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#76C4DD;
+}
+
+h3{
+	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	margin-bottom: 2rem;
+}
+
+.photo{
+	padding-bottom:50px;
+}
+
+a{
+	color:#212529;
+}
+
+.features{
+	margin: 50px auto 50px auto;
+	padding: 0 6.5rem;
+	line-height: 1.9rem;
+	text-align: center;
+}
+
+.articles{
+	padding-left:1rem;
+	}
+
+
+blockquote{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 18px;
+	padding-left:1rem;
+}
+
+
+blockquote::before {
+	font-family: "Times New Roman";
+  	content: open-quote;
+  	color: #FEB82D;
+  	font-size: 2rem;
+  	line-height: 0.8rem;
+}
+
+blockquote::after {
+	font-family: "Times New Roman";
+  	content: close-quote;
+  	color: #FEB82D;
+ 	 font-size: 2rem;
+ 	 line-height: 0.8rem;
+}
+
+.articles a:hover{
+	text-decoration: none;
+	transition: all 0.5s ease;
+	color:#FEB82D;
+}
+
+.source{
+	font-size: 14px;
+	text-align: right;
+}
+
+div.map img{
+	margin-top:7%;
+   	height: 400px;
+   	width: 400px;
+   	position: relative;
+   	right:-15%;
+	border-radius: 50%;
+}
+
+.follow i{
+	padding-left: 0.3rem;
+}
+
+.follow i:hover{
+	color:#199A69;
+  	transition: all 0.5s ease;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 1.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;            /* Footer height */
+}
+
+.copyright{
+	float: left;
+	color:#fff;
+	font-size: 0.6rem;
+	padding-left: 1rem;
+}
+
+.icons{
+	float: right;
+	padding-right: 1rem;
+}
+
+.icons i{
+	padding-left: 0.3rem;
+}
+.icons a{
+	color:#212529;
+}
+
+.copyright a{
+	color:#fff;
+}
+
+.copyright a:hover{
+	text-decoration: none;
+	color:#199A69;
+	transition: all 0.5s ease;
+}
+
+.icons i:hover{
+	color:#199A69;
+  	transition: all 0.5s ease;
+}
+
+@keyframes heartbeat{
+  0% { transform: translate(-50%, -50%) scale(1);}
+  50% { transform: translate(-50%, -50%) scale(1.5);}
+  100% { transform: translate(-50%, -50%) scale(1);}
+}
+
+/*@keyframes fadein{
+   from{opacity:0;}
+   to{opacity:1;}
+}
+
+body{
+   animation: fadein 3s;
+}*/
+
+div.cursor{
+ background-color: #1F9B63;
+ width: 20px;
+ height:20px;
+ border-radius: 50%;
+  
+ position: absolute;
+ top: 0;
+ left: 0;
+ transform: translate(-50%, -50%);
+  
+ mix-blend-mode: difference;
+ animation: heartbeat 2s infinite;
+}
+
+
+@media screen and (max-width: 1080px) {
+	div.map img{
+   	right:-10%;
+   	width:50%;
+	}
+
+	div.cursor{
+ 	width: 0px;
+ 	height: 0px;
+	}
+	.navbar {
+	flex-direction: column;
+	}
+
+	.photo{
+		width:100%;
+		padding: 2rem;
+	}
+
+	h3 {
+  	margin-bottom: 1.5rem;
+  	}
+/*  	.articles{
+	padding:1rem;
+	}*/
+
+}
+
+
+@media screen and (max-width: 900px) {
+	p{
+	font-size:14px;
+	}
+
+	h3 {
+  	font-size: 20px;
+  	}
+	
+	.photo{
+		padding: 1rem;
+	}
+
+	div.map img{
+   	height: 200px;
+   	width: 200px;
+   	position: relative;
+	border-radius: 50%;
+   	right:-20%;
+	}
+
+	.features{
+		padding:0 1rem;
+		margin:20px auto 20px auto;
+	}
+
+  	.col-sm-4, .col-sm-8 {
+  	flex: none;
+  	max-width:100%;
+  	}
+
+	.find_us{
+	margin-bottom:20px;
+	}
+ }
+
+
+@media screen and (max-width: 758px) {
+	div.menu{
+		margin:0px auto 0px auto;
+	}
+}
