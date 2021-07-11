@@ -11,78 +11,23 @@ body {
 	left:60%;
 }
 
-.register_here{
-	color:#FEB82D;
-}
-
-.register_here:hover{
-	text-decoration: none;
-	transition: all 0.5s ease;
+.email, .springbeast, .register_here{
 	color:#1F9B63;
 }
-
-.email, .springbeast{
-	color:#1F9B63;
+.email:hover, .springbeast:hover, .register_here:hover{
+	color:#FB5B3C;
 }
+div.menu a:hover {
+	color: #1F9B63;
+  }
 
-.springbeast:hover{
-	text-decoration: none;
-	transition: all 0.5s ease;
-	color:#FEB82D;
-}
-
-.email:hover{
-	text-decoration: none;
-	transition: all 0.5s ease;
-	color:#FEB82D;
-}
+  div.menu .register:hover{
+	color:#74c4d9
+	}
 
 .springbeast_heading{
 	font-size: 1rem;
 	margin-bottom: 0.5rem;
-}
-
-.market, .vintage, .art, .homemade, .homecooking, .music, .trucks, .humans{
-	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;;
-	color:#1F9B63;
-	font-weight: 900;
-}
-
-.market{
-	font-size: 2.75rem;
-}
-.vintage{
-	font-size: 2rem;
-}
-.art{
-	font-size: 1.75rem;
-}
-.homemade{
-	font-size: 2.75rem;
-}
-.homecooking{
-	font-size: 2.5rem;
-}
-
-.music{
-	font-size: 3.5rem;
-}
-
-.trucks{
-	font-size: 1.75rem;
-}
-
-.humans{
-	font-size: 2.25rem;
-}
-
-.outro{
-	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
-	font-size: 1.5rem;
-	text-align: center;
-	color:#199A69;
-	margin-bottom:2rem;
-	font-weight: 900;
 }
 
 @media screen and (max-width: 1080px) {

@@ -1,9 +1,9 @@
 body {
 	background-color: #FB5B3C;
-  	background-attachment: fixed;
-  	background-size: cover;
-  	background-position: top;
-  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
 }
 
 .logo img{
@@ -12,77 +12,44 @@ body {
 	transform: translate(-50%);
 	left:50%;
 }
-.email{
-	color:#FB5B3C;
+div.menu a:hover {
+	color: #1f9b63;
 }
 
-.register_here{
-	color:#FB5B3C;
+div.menu .register:hover{
+	color:#FE8EC3
 }
 
-.register_here:hover{
-	text-decoration: none;
+.register_here, .email, .intro_home a{
 	transition: all 0.5s ease;
-	color:#76C4DD;
+	color: #FB5B3C;
+}
+.intro_home {
+	max-width: 55%;
 }
 
-.email:hover{
-	text-decoration: none;
-	transition: all 0.5s ease;
-	color:#76C4DD;
-}
-
-.market, .vintage, .art, .homemade, .homecooking, .music, .trucks, .humans{
-	font-family: NeueMachina-Ultrabold, Arial, Helvetica, sans-serif;
-	color:#FE8EC3;
-	font-weight: 900;
-}
-
-.market{
-	font-size: 2.75rem;
-}
-.vintage{
-	font-size: 2rem;
-}
-.art{
-	font-size: 1.75rem;
-}
-.homemade{
-	font-size: 2.75rem;
-}
-.homecooking{
-	font-size: 2.5rem;
-}
-
-.music{
-	font-size: 3.5rem;
-}
-
-.trucks{
-	font-size: 1.75rem;
-}
-
-.humans{
-	font-size: 2.25rem;
+.intro_home a:hover{
+	color: #1f9b63;
+	text-decoration:none;
 }
 
 @media screen and (max-width: 1080px) {
 	body {
-  	margin: 0;
-  	padding: 0;
-  	height: 100%;
+		margin: 0;
+		padding: 0;
+		height: 100%;
 	}
-
+	
 	body:before {
-  	content: "";
-  	z-index: -10;
-  	position: fixed;
-  	top: 0;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-  	background: url(/background_images/banddagen_about.png) no-repeat 0 0;
-  	background-size: cover
+		content: "";
+		z-index: -10;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url(/background_images/banddagen_about.png) no-repeat 0 0;
+		background-size: cover
 	}
 }
 
