@@ -40,7 +40,7 @@ div.menu .register:hover {
   cursor: auto;
   margin: 6rem auto;
   height: 70%;
-  width: 70%;
+  width: 60%;
   background-color: #fff;
   padding: 1rem;
   border-radius: 10px;
@@ -50,7 +50,7 @@ div.menu .register:hover {
 }
 .popup-content .text {
   float: left;
-  width: 50%;
+  width: 55%;
   padding: 2rem;
   font-size: 0.8rem;
 }
@@ -65,6 +65,7 @@ div.menu .register:hover {
 }
 .popup-content h3 {
   font-size: 1.3rem;
+  margin-bottom: 1rem;
   color: #fe8ec3;
 }
 .popup-content img {
